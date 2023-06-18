@@ -23,7 +23,7 @@ sudo systemctl start carberrycommander
 
 ## Settings
 
-* **TIMER1** - The duration in seconds after an IGNITION OFF event untill the Carberry shield starts emitting **GOTOSLEEP** events.
+* **TIMER1** - The duration in seconds after an IGNITION OFF event untill the Carberry shield starts emitting GOTOSLEEP events.
 * **IGNORE_STATIONS** - A comma separated list of MAC address that should be ignored to decide to go to sleep.
 * **HOME_COORD** - (Lat,Lon) coordinates of your home address.
 
