@@ -1,0 +1,2 @@
+gpsdclient
+haversine

@@ -1,0 +1,15 @@
+[Unit]
+Description=Carberry Commander Service
+After=multi-user.target
+StartLimitIntervalSec=50
+StartLimitBurst=5
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+EnvironmentFile=/home/pi/carberrycommander/env
+ExecStart=/usr/bin/python /home/pi/carberrycommander/carberrycommander.py > /var/log/carberrycommander.log 2>&1
+
+[Install]
+WantedBy=multi-user.target
